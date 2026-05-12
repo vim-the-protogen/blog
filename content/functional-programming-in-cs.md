@@ -1,4 +1,6 @@
-
+---
+title: Functional Programming in C#
+---
 # What is functional programming?
 
 # Why?

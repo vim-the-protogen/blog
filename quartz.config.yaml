@@ -143,7 +143,7 @@ plugins:
       priority: 50
     options:
       title: Explorer
-      folderClickBehavior: collapse
+      folderClickBehavior: link
   - source: github:quartz-community/graph
     enabled: true
     layout:

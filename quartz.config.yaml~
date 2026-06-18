@@ -141,6 +141,9 @@ plugins:
     layout:
       position: left
       priority: 50
+    options:
+      title: Explorer
+      folderClickBehavior: collapse
   - source: github:quartz-community/graph
     enabled: true
     layout:

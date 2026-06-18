@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: The Protogen's Playground
+  pageTitle: The Protogen's Parlor
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -130,6 +130,10 @@ plugins:
     enabled: true
   - source: github:quartz-community/folder-page
     enabled: true
+    options:
+        showFolderCount: true
+        showSubfolders: true
+        prefixFolders: false
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
